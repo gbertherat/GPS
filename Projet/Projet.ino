@@ -50,6 +50,6 @@ void printToLCD(){ // Fonction printToLCD() pour afficher les données sur un é
     lcd.setCursor(0,0);
     lcd.print("Données invalides"); // On affiche un message d'erreur sur la première ligne de l'écran
   }
-  delay(300); // On ajout un délai de 300ms (Evile le clignotement)
+  delay(300); // On ajout un délai de 300ms (Evite le clignotement)
   lcd.clear(); // Puis on efface le contenu de l'écran
 }
