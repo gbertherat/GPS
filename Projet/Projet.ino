@@ -3,7 +3,7 @@
 #include <LiquidCrystal_I2C.h> // Librairie pour l'affichage sur écran LCD
 
 static const int RXPin = 4, TXPin = 3; // Le GPS est branché sur les branches 3(TX) et 4(RX)
-static const uint32_t GPSBaud = 4800; // Baud-rate du GPS
+static const uint32_t GPSBaud = 9600; // Baud-rate du GPS
 
 
 TinyGPSPlus gps; // On créé un objet GPS
